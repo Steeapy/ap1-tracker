@@ -1,0 +1,301 @@
+// ----------------------------------------------------------------------
+// DATEI: assets/js/data.js
+// INHALT: Nur die Lerninhalte
+// ----------------------------------------------------------------------
+
+window.AP1_DATA = [
+  {
+    id: 'LF1',
+    name: 'LF 1: Unternehmen & Umfeld',
+    desc: 'Rechtsformen, Organisation, Nachhaltigkeit',
+    topics: [
+      {
+        id: '1.1',
+        title: 'Rechtsformen (GmbH, AG, KG)',
+        weight: 2,
+        time: 90,
+        sub: [
+          'Haftung & Gründung',
+          'Geschäftsführung/Vertretung',
+          'Gewinnverteilung',
+          'Gemeinnützige Vereine (e.V.)',
+        ],
+      },
+      {
+        id: '1.2',
+        title: 'Organisationsstrukturen',
+        weight: 2,
+        time: 60,
+        sub: [
+          'Einlinien- vs. Mehrliniensystem',
+          'Matrixorganisation',
+          'Organigramme lesen & erstellen',
+        ],
+      },
+      {
+        id: '1.3',
+        title: 'Vertragsrecht & Störungen',
+        weight: 3,
+        time: 90,
+        sub: [
+          'Kauf-, Werk-, Dienst-, Mietvertrag',
+          'Nichtigkeit & Anfechtbarkeit',
+          'Verzug (Lieferung/Zahlung) & Mangel',
+          'Allgemeine Geschäftsbedingungen (AGB)',
+        ],
+      },
+      {
+        id: '1.4',
+        title: 'Arbeitsrecht & Mitbestimmung',
+        weight: 1,
+        time: 60,
+        sub: [
+          'Betriebsrat Rechte/Pflichten',
+          'JArbSchG & Mutterschutz',
+          'Duales System (Kammern, Berufsschule)',
+          'Kündigungsschutz',
+        ],
+      },
+      {
+        id: '1.5',
+        title: 'Nachhaltigkeit (CSR)',
+        weight: 1,
+        time: 45,
+        sub: ['Drei-Säulen-Modell', 'Green IT Maßnahmen', 'Lieferkettengesetz Basics'],
+      },
+    ],
+  },
+  {
+    id: 'LF2',
+    name: 'LF 2: Prozesse & Wirtschaft',
+    desc: 'Projektmanagement, Kalkulation, Beschaffung',
+    topics: [
+      {
+        id: '2.1',
+        title: 'Projektmanagement',
+        weight: 3,
+        time: 120,
+        sub: [
+          'Netzplan (FAZ/FEZ/SAZ/SEZ)',
+          'Kritischer Pfad & Puffer',
+          'Gantt-Diagramm',
+          'Lasten- vs. Pflichtenheft',
+          'Vorgehensmodelle: Wasserfall vs. Scrum',
+        ],
+      },
+      {
+        id: '2.2',
+        title: 'Wirtschaftlichkeit (NWA)',
+        weight: 3,
+        time: 90,
+        sub: [
+          'Nutzwertanalyse durchführen',
+          'Amortisationsrechnung',
+          'Kauf vs. Leasing vs. Miete',
+          'TCO (Total Cost of Ownership)',
+        ],
+      },
+      {
+        id: '2.3',
+        title: 'Kalkulation & Angebote',
+        weight: 2,
+        time: 90,
+        sub: [
+          'Vorwärts-/Rückwärtskalkulation',
+          'Skonto, Rabatt, Gewinnzuschlag',
+          'Handlungsgemeinkosten',
+          'Umsatzsteuer & Brutto/Netto',
+        ],
+      },
+      {
+        id: '2.4',
+        title: 'Beschaffung',
+        weight: 1,
+        time: 60,
+        sub: [
+          'ABC-Analyse',
+          'Bestellpunkt- vs. Rhythmusverfahren',
+          'Just-in-Time',
+          'Angebotsvergleich',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'LF3',
+    name: 'LF 3: Information & Kommunikation',
+    desc: 'Ergonomie, Englisch, Barrierefreiheit',
+    topics: [
+      {
+        id: '3.1',
+        title: 'Arbeitsplatz & Ergonomie',
+        weight: 2,
+        time: 60,
+        sub: ['BildschirmarbV', 'DGUV V3', 'Barrierefreiheit (WCAG)'],
+      },
+      {
+        id: '3.2',
+        title: 'Kommunikation',
+        weight: 1,
+        time: 45,
+        sub: [
+          'Sender-Empfänger-Modell',
+          '4-Ohren-Modell',
+          'Konfliktgespräche',
+          'Präsentationstechniken',
+        ],
+      },
+      {
+        id: '3.3',
+        title: 'Fachliches Englisch',
+        weight: 2,
+        time: 45,
+        sub: [
+          'Technische Handbücher verstehen',
+          'Fehlermeldungen analysieren',
+          'Englische E-Mail-Korrespondenz',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'LF4',
+    name: 'LF 4: IT-Systeme',
+    desc: 'Hardware, Netze, Security',
+    topics: [
+      {
+        id: '4.1',
+        title: 'Hardware Basics',
+        weight: 3,
+        time: 90,
+        sub: [
+          'CPU (Architektur, Cache, Cores)',
+          'RAM (DDR, ECC)',
+          'Speicher (SSD/NVMe vs. HDD)',
+          'Schnittstellen (USB-C, HDMI)',
+          'Energieeffizienz & Netzteile',
+        ],
+      },
+      {
+        id: '4.2',
+        title: 'Netzwerktechnik',
+        weight: 3,
+        time: 120,
+        sub: [
+          'OSI-Modell (7 Schichten)',
+          'IPv4 & Subnetting',
+          'IPv6 Basics',
+          'Switching vs. Routing',
+          'VLAN Basics',
+        ],
+      },
+      {
+        id: '4.3',
+        title: 'IT-Sicherheit (CIA)',
+        weight: 3,
+        time: 120,
+        sub: [
+          'Schutzziele (CIA)',
+          'Verschlüsselung',
+          'Bedrohungen (Phishing, Ransomware)',
+          'DSGVO Basics',
+        ],
+      },
+      {
+        id: '4.4',
+        title: 'Backup & Verfügbarkeit',
+        weight: 2,
+        time: 90,
+        sub: ['Backup-Strategien', 'Generationenprinzip', 'RAID (0, 1, 5, 10)', 'USV'],
+      },
+      {
+        id: '4.5',
+        title: 'Betriebssysteme & Virtualisierung',
+        weight: 2,
+        time: 90,
+        sub: [
+          'OS Aufgaben',
+          'Hypervisor Typ 1 vs 2',
+          'Container (Docker)',
+          'Cloud (IaaS, PaaS, SaaS)',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'LF5',
+    name: 'LF 5: Software & Daten',
+    desc: 'Datenbanken, Coding, UML',
+    topics: [
+      {
+        id: '5.1',
+        title: 'Datenbanken (ERM)',
+        weight: 3,
+        time: 120,
+        sub: [
+          'ER-Modell zeichnen',
+          'Kardinalitäten',
+          'Normalisierung (1.-3. NF)',
+          'Primär- & Fremdschlüssel',
+          'Referentielle Integrität',
+        ],
+      },
+      {
+        id: '5.2',
+        title: 'SQL Grundlagen',
+        weight: 3,
+        time: 90,
+        sub: ['SELECT, WHERE, LIKE', 'JOINs Basics', 'CREATE TABLE', 'INSERT, UPDATE, DELETE'],
+      },
+      {
+        id: '5.3',
+        title: 'UML & Logik',
+        weight: 3,
+        time: 90,
+        sub: ['Aktivitätsdiagramm', 'Klassendiagramm', 'Use-Case Diagramm', 'Struktogramme'],
+      },
+      {
+        id: '5.4',
+        title: 'Coding Basics',
+        weight: 2,
+        time: 90,
+        sub: ['Datentypen & Variablen', 'Kontrollstrukturen (If, Loop)', 'Operatoren', 'Debugging'],
+      },
+      {
+        id: '5.5',
+        title: 'Softwarequalität',
+        weight: 2,
+        time: 60,
+        sub: ['Testarten', 'Blackbox vs. Whitebox', 'Datenschutz by Design', 'Git Basics'],
+      },
+    ],
+  },
+  {
+    id: 'LF6_7',
+    name: 'LF 6 & 7: Service & CPS',
+    desc: 'Service, Cyber-Physische Systeme',
+    topics: [
+      {
+        id: '6.1',
+        title: 'Serviceanfragen',
+        weight: 2,
+        time: 60,
+        sub: ['Ticketsysteme', 'SLA', 'Eskalationsstufen', 'Fehlersuche'],
+      },
+      {
+        id: '6.2',
+        title: 'Beschaffung & Installation',
+        weight: 2,
+        time: 60,
+        sub: ['Softwareverteilung', 'Lizenzmanagement', 'Abnahmeprotokolle'],
+      },
+      {
+        id: '7.1',
+        title: 'Cyber-Physische Systeme',
+        weight: 1,
+        time: 45,
+        sub: ['Grundkonzept CPS', 'Sensoren & Aktoren', 'IoT Basics', 'Schnittstellen'],
+      },
+    ],
+  },
+];
